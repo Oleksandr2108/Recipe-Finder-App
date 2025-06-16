@@ -1,8 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🥘 Recipe Finder App
 
-## Getting Started
+A modern and stylish recipe search application built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**, using the **Spoonacular API** to fetch recipes based on user queries, cuisine types, and preparation time.
 
-First, run the development server:
+## ✨ Features
+
+- 🔍 Search recipes by keyword (e.g., "pasta", "chicken")
+- 🌍 Filter by cuisine (e.g., Italian, Mexican, Asian)
+- ⏱ Filter by maximum ready time
+- 📄 Recipe detail page with ingredients and cooking information
+- ⚡ Server-side fetching with caching and revalidation
+- 🧭 Clean UI with responsive design
+- 🎯 Custom components: inputs, select dropdowns
+- 💡 Loading states with `React.Suspense`
+
+## 🧪 Technologies Used
+
+- [Next.js 15 (App Router)](https://nextjs.org/docs)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Spoonacular API](https://spoonacular.com/food-api)
+- React Suspense
+- Custom reusable UI components
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Oleksandr2108/Recipe-Finder-App.git
+cd Recipe-Finder-App
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
@@ -28,9 +65,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
